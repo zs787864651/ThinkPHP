@@ -1,0 +1,59 @@
+<!-- 调用头部文件 -->
+<include file = "Public:homeheader" title = "用户登录" />
+
+<import type='css' file="css.amazeuimin" />
+ <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+
+<!-- 
+<div class="header">
+  <div class="am-g">
+    <h1>扬工云-云校园</h1>
+    <p>在这里你可以畅所欲言<br/>寻找同伴，共同成长，一起遨游云端，追逐梦想</p>
+  </div>
+  <hr />
+</div> -->
+<br />
+
+<div class="am-g">
+  <div class="am-u-lg-4 am-u-md-8 am-u-sm-centered">
+    <h1 class="header am-g">登录</h1>
+    <hr>
+
+    <form action="{:U('Login/denglu')}" method="post" class="am-form">
+      <label for="number">学号:</label>
+      <input type="number"  required name="floginxuehao">
+      <br>
+      <label for="password">密码:</label>
+      <input type="password" required name="floginpasswd">
+      <br>
+      <!-- <label for="remember-me">
+        <input id="remember-me" type="checkbox">
+        记住密码
+      </label> -->
+
+  <div class="am-u-lg-5 am-u-md-8 am-u-sm-centered">
+      <div class="am-container">
+        <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-block ">
+        <!-- <input type="submit" name="" value="忘记密码? " class="am-btn am-btn-default am-btn-sm am-fr"> -->
+      </div>
+      </div>
+    </form>
+    <hr>
+    <p>© 2016 扬州工业职业技术学院 , 扬工云-云校园</p>
+  </div>
+</div>
+
+<!-- 调用脚部文件 -->
+<include file = "Public:homefooter"  />

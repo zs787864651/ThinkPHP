@@ -1,0 +1,738 @@
+[ 2016-05-07T16:16:20+08:00 ] ::1 /ypicloud/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_liuyan` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_liuyan` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_liuyan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T16:16:22+08:00 ] ::1 /ypicloud/Toutiao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T16:16:23+08:00 ] ::1 /ypicloud/Query/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:16:49+08:00 ] ::1 /ypicloud/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_liuyan` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_liuyan` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_liuyan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:16:53+08:00 ] ::1 /ypicloud/Query/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:00+08:00 ] ::1 /ypicloud/Query/send.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_grade` [ RunTime:0.0420s ]
+SQL: SELECT `ypi_code`,`class`,`name`,`course_name`,`grade` FROM `table_grade` WHERE `student_id` = '1' AND `name` = '1'  [ RunTime:0.0230s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\AWamp\wamp\www\ypicloud\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:04+08:00 ] ::1 /ypicloud/Toutiao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T19:17:05+08:00 ] ::1 /ypicloud/Zhaopin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '3' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '3' AND status = 0 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:06+08:00 ] ::1 /ypicloud/Jiangtan/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '4' AND status = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '4' AND status = 0 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:09+08:00 ] ::1 /ypicloud/Zhaopin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '3' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '3' AND status = 0 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:10+08:00 ] ::1 /ypicloud/Article/index/id/47.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_article` WHERE ( id = 47 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: UPDATE `table_article` SET `view`=view+1 WHERE ( id = 47 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( uid = 14 AND status = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_article` WHERE ( uid = 14 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 357 行.
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:10+08:00 ] ::1 /ypicloud/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_comment` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `table_comment` WHERE ( aid = 47 ) LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='0' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-07T19:17:12+08:00 ] ::1 /ypicloud/Toutiao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:13+08:00 ] ::1 /ypicloud/Article/index/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_article` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0040s ]
+SQL: UPDATE `table_article` SET `view`=view+1 WHERE ( id = 38 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( uid = 14 AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( uid = 14 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 353 行.
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:13+08:00 ] ::1 /ypicloud/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_comment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_comment` WHERE ( aid = 38 ) LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-07T19:17:14+08:00 ] ::1 /ypicloud/Jiangtan/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '4' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '4' AND status = 0 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:16+08:00 ] ::1 /ypicloud/Article/index/id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_article` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0030s ]
+SQL: UPDATE `table_article` SET `view`=view+1 WHERE ( id = 41 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( uid = 14 AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( uid = 14 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 360 行.
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:16+08:00 ] ::1 /ypicloud/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_comment` WHERE ( aid = 41 ) LIMIT 0,6   [ RunTime:0.0000s ]
+
+[ 2016-05-07T19:17:17+08:00 ] ::1 /ypicloud/Zhaopin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '3' AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '3' AND status = 0 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:18+08:00 ] ::1 /ypicloud/Article/index/id/46.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_article` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0030s ]
+SQL: UPDATE `table_article` SET `view`=view+1 WHERE ( id = 46 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( uid = 14 AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( uid = 14 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 357 行.
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 372 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T19:17:18+08:00 ] ::1 /ypicloud/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_comment` WHERE ( aid = 46 ) LIMIT 0,6   [ RunTime:0.0000s ]
+
+[ 2016-05-07T19:17:19+08:00 ] ::1 /ypicloud/Toutiao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id =2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( fid = '2' AND status = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_article` WHERE ( fid = '2' AND status = 0 ) ORDER BY id desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:20+08:00 ] ::1 /ypicloud/Article/index/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_article` WHERE ( id = 38 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_user` [ RunTime:0.0030s ]
+SQL: UPDATE `table_article` SET `view`=view+1 WHERE ( id = 38 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_user` WHERE ( id = 14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `table_article` WHERE ( uid = 14 AND status = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_article` WHERE ( uid = 14 AND status = 0 ) ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 353 行.
+NOTIC: [8] Undefined index: mid D:\AWamp\wamp\www\ypicloud\App\Runtime\Cache\Home\cfe01869af6be3c3877604696cf02b80.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T19:17:20+08:00 ] ::1 /ypicloud/Article/getReplay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `table_fenlei` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid = 0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_fenlei` WHERE ( fid != 0 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_site` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_site` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_email_set` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_email_set` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `table_comment` WHERE ( aid = 38 ) LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `table_userinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `table_userinfo` WHERE ( 1=1 AND uid='14' ) LIMIT 1   [ RunTime:0.0000s ]
+

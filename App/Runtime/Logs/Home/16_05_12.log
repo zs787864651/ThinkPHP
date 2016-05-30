@@ -1,0 +1,9 @@
+[ 2016-05-12T17:09:13+08:00 ] ::1 /ypicloud/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-12T17:09:25+08:00 ] ::1 /ypicloud/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-05-12T17:09:26+08:00 ] ::1 /ypicloud/index.php
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

@@ -1,0 +1,12 @@
+[ 2016-05-27T13:52:26+08:00 ] ::1 /ypicloud/Public/Admin/js/plugins/dataTables/jquery.dataTables.js
+ERR: 无法加载控制器:Public
+
+[ 2016-05-27T13:52:26+08:00 ] ::1 /ypicloud/Public/Admin/js/plugins/dataTables/dataTables.tableTools.min.js
+ERR: 无法加载控制器:Public
+
+[ 2016-05-27T13:52:26+08:00 ] ::1 /ypicloud/Public/Admin/js/plugins/dataTables/dataTables.responsive.js
+ERR: 无法加载控制器:Public
+
+[ 2016-05-27T13:52:26+08:00 ] ::1 /ypicloud/Public/Admin/js/plugins/dataTables/dataTables.bootstrap.js
+ERR: 无法加载控制器:Public
+

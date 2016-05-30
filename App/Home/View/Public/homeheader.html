@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+<meta charset="UTF-8">
+<title>[title]</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!-- <link rel="alternate icon" type="image/png" href="assets/i/favicon.png"> -->
+<import type='css' file="css.amazeuimin" />
+<import type='css' file="css.style" />
+</head>
+
+
+<body style="overflow-x: hidden">
+
+	<header class="am-topbar am-topbar-fixed-top">
+		<div class="am-container">
+			<h1 class="am-topbar-brand">
+				<a href="http://localhost/ypicloud/admin.php">扬工云</a>
+			</h1>
+
+			<button
+				class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+				data-am-collapse="{target: '#collapse-head'}">
+				<span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span>
+			</button>
+			<div class="am-collapse am-topbar-collapse" id="collapse-head">
+				<ul class="am-nav am-nav-pills am-topbar-nav">
+					<li [shouye]><a href="{:U('Index/index')}">首页</a></li>
+					<li [chaxun]}><a href="{:U('Query/index')}">查询</a></li>
+					<li [toutiao]><a href="{:U('Toutiao/index')}">头条</a></li>
+					<li [zhaopin]zhaopin><a href="{:U('Zhaopin/index')}">招聘</a></li>
+					<li [jiangtan]><a href="{:U('Jiangtan/index')}">讲坛</a></li>
+					<li class="am-dropdown" data-am-dropdown><a
+						class="am-dropdown-toggle" data-am-dropdown-toggle
+						href="javascript:;"> 更多 <span class="am-icon-caret-down"></span>
+					</a>
+						<ul class="am-dropdown-content">
+							<li class="am-dropdown-header">这是标题</li>
+							<li><a href="#">1. 扬工头条</a></li>
+							<li><a href="#">2. 校园招聘</a></li>
+							<li><a href="#">3. 扬帆讲坛</a></li>
+							<li><a href="#">4. 联系我们</a></li>
+						</ul></li>
+				</ul>
+
+				<div class="am-topbar-right">
+					<a href="{:U('Login/login')}"><button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">
+						<span class="am-icon-user">
+								</span>{$login.login}
+					</button></a>
+					
+					<a href="{:U('Login/tuidenglu')}"><button class="am-btn am-btn-primary am-topbar-btn am-btn-sm ">
+						<span class="am-icon-power-off"> </span>退出
+					</button></a>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+
+

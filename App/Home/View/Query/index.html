@@ -1,0 +1,48 @@
+<!-- 调用头部文件 -->
+<include file = "Public:homeheader" title = '查询中心' chaxun='class="am-active"'/>
+  <import type='css' file="css.amazeuimin" />
+  <import type='css' file="css.admin" />
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 150%;
+      color: #333;
+      margin-top: 10px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+
+<div class="header">
+  <div class="am-g">
+    <h1>查询中心</h1>
+    <p>后期还会添加功能，期待小伙伴们多多提建议，联系邮箱：787864651@qq.com</p>
+  </div>
+</div>
+
+<div class="am-g">
+  <div class="am-u-lg-4 am-u-md-8 am-u-sm-centered">
+    <form action="{:U('Query/send')}" method="post" class="am-form">
+      <label for="email">姓名:</label>
+      <input class="form-control" type="text" required name="fquerygname">
+
+      <label for="password">学号:</label>
+      <input class="form-control" type="number" required name="fquerygid">
+      <br>
+      
+      <div class="am-u-lg-5 am-u-md-8 am-u-sm-centered">
+      <div class="am-container">
+        <input type="submit" name="chaxun" value="查询" class="am-btn am-btn-primary am-btn-block">
+        <!-- <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr"> -->
+      </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<!-- 调用脚部文件 -->
+<include file = "Public:homefooter"  />

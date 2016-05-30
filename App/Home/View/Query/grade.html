@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>查询结果</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<import type='css' file="css.amazeuimin" />
+<import type='css' file="css.admin" />
+</head>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 150%;
+      color: #333;
+      margin-top: 10px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+<body am-scrollable-vertical>
+
+<div class="header">
+  <div class="am-g">
+    <h1>查询结果</h1>
+    <hr />
+  </div>
+</div>
+
+	<div class="admin-content">
+		<div class="admin-content-body">
+			<div class="am-g">
+				<div class="am-u-md-6 am-u-md-8 am-u-sm-centered">
+					<div class="am-panel am-panel-default">
+						<div class="am-panel-hd am-cf"
+							data-am-collapse="{target: '#collapse-panel-1'}">
+							期末成绩<span class="am-icon-chevron-down am-fr"></span>
+						</div>
+						<div class="am-panel-bd am-collapse am-in" id="collapse-panel-1">
+						
+						
+						
+						
+
+
+
+						
+						
+						
+							<!-- 表格开始 -->
+							<div class="am-g">
+								<div class="am-u-sm-12 am-u-lg-10 am-u-md-12 am-u-sm-centered">
+									<form class="am-form">
+										<table
+											class="am-table am-table-striped am-table-hover table-main">
+
+											<thead>
+												<tr>
+													<th class="table-title am-hide-sm-only">院系</th>
+													<th class="table-title am-hide-sm-only">班级</th>
+													<th class="table-title am-hide-sm-only">姓名</th>
+													<th class="table-title">课程名</th>
+													<th class="table-id">分数</th>
+												</tr>
+											</thead>
+
+											<tbody>
+												<volist name='gradedata' id='data'>
+												
+												
+												
+												<tr>
+												
+												<if condition="$data['grade'] gt 89"> 
+												
+													<td class="am-hide-sm-only am-text-success">{$data['ypi_code']}</td>
+													<td class="am-hide-sm-only am-text-success">{$data['class']}</td>
+													<td class="am-hide-sm-only am-text-success">{$data['name']}</td>
+													<td class="am-text-success">{$data['course_name']}</td>
+													<td class="am-text-success">{$data['grade']}</td>
+													
+													<elseif condition="$data['grade'] gt 69"/> 
+													
+													<td class="am-hide-sm-only am-text-secondary">{$data['ypi_code']}</td>
+													<td class="am-hide-sm-only am-text-secondary">{$data['class']}</td>
+													<td class="am-hide-sm-only am-text-secondary">{$data['name']}</td>
+													<td class="am-text-secondary">{$data['course_name']}</td>
+													<td class="am-text-secondary">{$data['grade']}</td>
+													
+													<else/>
+													
+													<td class="am-hide-sm-only am-text-danger">{$data['ypi_code']}</td>
+													<td class="am-hide-sm-only am-text-danger">{$data['class']}</td>
+													<td class="am-hide-sm-only am-text-danger">{$data['name']}</td>
+													<td class="am-text-danger">{$data['course_name']}</td>
+													<td class="am-text-danger">{$data['grade']}</td>
+													
+													
+													
+												</if>
+												
+												
+												</tr>
+												
+												</volist>
+											</tbody>
+										</table>
+									</form>
+								</div>
+							</div>
+							<!-- 表格结束 -->
+							
+							
+							
+							
+
+
+
+
+
+
+							  
+							  
+						</div>
+					</div>
+
+
+					<!-- 
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">课程表<span class="am-icon-chevron-down am-fr" ></span></div>
+            <div id="collapse-panel-2" class="am-panel-bd am-collapse am-in">
+              95
+            </div>
+          </div>
+          
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-4'}">任务 task<span class="am-icon-chevron-down am-fr" ></span></div>
+            <div id="collapse-panel-4" class="am-panel-bd am-collapse am-in">
+              94
+            </div>
+          </div>
+      -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<import type='js' file="js.jquerymin" />
+	<import type='js' file="js.amazeuimin" />
+	<import type='js' file="js.app" />
+</body>
+</html>
